@@ -3,3 +3,9 @@ patient_KGs_G20/** filter=lfs diff=lfs merge=lfs -text
 patient_KGs_M0699/** filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
+split_kg.py filter=lfs diff=lfs merge=lfs -text
+biomedical_kg.txt filter=lfs diff=lfs merge=lfs -text
+outputs/outputs_1272434/fine_tuning/train.txt filter=lfs diff=lfs merge=lfs -text
+outputs/outputs_1272434/fine_tuning/valid.txt filter=lfs diff=lfs merge=lfs -text
+outputs/outputs_1272434/fine_tuning/test.txt filter=lfs diff=lfs merge=lfs -text
+outputs/outputs_1272434/* filter=lfs diff=lfs merge=lfs -text
